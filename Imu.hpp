@@ -30,7 +30,7 @@ class Imu
 {
  public:
   Imu(LibXR::SPI& spi, LibXR::GPIO& acc_cs, LibXR::GPIO& gyro_cs,
-      LibXR::GPIO* acc_int = nullptr);
+      LibXR::GPIO* acc_int);
 
   Bmi088 bmi088;
   Vqf vqf;
